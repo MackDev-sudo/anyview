@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>TCS Anyview</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo"><p style = "font-size:28px; color: #910A67"><i class='bx bxl-xing'></i></style></div>
+        <div class="hamburger" id="toggle">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar" id="navbar">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="resources.html" class="active">Resources</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <div class="login">
+                    <li>
+                        <a href="login.html"  class="navlogin active">Login</a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content" id="home">
+        <link rel="stylesheet" href="css/resources.css">
+        <header>
+            <h1 style="text-align: center;">Our Resources</h1>
+        </header>
+        <main>
+            <section class="resource">
+                <h2><i class='bx bxl-github' ></i> Github</h2>
+                <p>We use GitHub for secure storing and updating of our site's codebase. It allows us to manage our projects efficiently with version control, collaborative features, and extensive integrations.</p>
+            </section>
+            <section class="resource">
+                <h2><i class='bx bxl-html5' ></i> Design <i class='bx bxl-css3' ></i></h2>
+                <p>Our website is designed using HTML and CSS. HTML provides the structure, while CSS ensures the site is visually appealing with responsive design principles, making our content accessible on any device.</p>
+            </section>
+            <section class="resource">
+                <h2><i class='bx bxl-python' ></i> Custom Scripts <i class='bx bxl-javascript' ></i></h2>
+                <p>We have custom scripts written in Python and JavaScript to handle various functionalities. We utilize libraries such as Paramiko for SSH connectivity, Requests for HTTP requests, Pandas for data manipulation, and CSV for handling CSV files.</p>
+            </section>
+            <section class="resource">
+                <h2><i class='bx bxl-stack-overflow'></i> API</h2>
+                <p>We integrate with external APIs such as Pyfos and Brocade API to enhance our functionality. These APIs help us interact with external systems, enabling features like automated data fetching and remote system management.</p>
+            </section>
+            <section class="resource">
+                <h2><i class='bx bxl-firebase' ></i> Authentication</h2>
+                <p>For authentication, we rely on Google Firebase. It provides secure, scalable, and reliable authentication services, allowing users to sign in with their Google accounts and ensuring their data is protected.</p>
+            </section>
+            <section class="resource">
+                <h2><i class='bx bxl-postgresql' ></i> Database</h2>
+                <p>Our data is stored in a remote SQL Database. This setup ensures data integrity, security, and accessibility, enabling us to handle large amounts of data efficiently and perform complex queries with ease.</p>
+            </section>
+        </main>
+    </div>
+    <div>
+        <p class="footer-note-main"><p style = "text-align: center; font-size:14px; color: #B4B4B8"><i class='bx bxl-xing'></i> Copyright © 2024 Mackdev Inc. All rights reserved. </p>
+    </div>
+
+    <div>
+        <p class="footer-note">
+            <br> This web portal is intended solely for internal use by TCS employees working on the AEP Energy project.
+            <br> The information provided is confidential and should not be shared outside the designated scope. Any unauthorized access or use is strictly prohibited.Violations may result in disciplinary action or legal consequences.
+        </p>
+    </div>
+    <script src="javascript/index.js"></script>
+</body>
+
+</html>
